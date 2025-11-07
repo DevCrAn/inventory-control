@@ -1,0 +1,45 @@
+ok perfecto ya tengo corriendo todo
+
+
+
+@DevCrAn ➜ /workspaces/inventory-control (main) $ pnpm dev
+
+> inventario-vehiculos@0.1.0 dev /workspaces/inventory-control
+
+> next dev
+
+   ▲ Next.js 16.0.1 (Turbopack)
+
+   - Local:        http://localhost:3000
+
+   - Network:      http://10.0.2.119:3000
+
+   - Environments: .env.local
+
+ ✓ Starting...
+
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+ ✓ Ready in 6.8s
+
+ ○ Compiling / ...
+
+ GET / 200 in 6.0s (compile: 5.7s, proxy.ts: 92ms, render: 231ms)
+
+
+
+lo que hice fue mover todo asi 
+
+
+
+mv inventario-vehiculos/* .
+
+mv inventario-vehiculos/.* . 2>/dev/null || true
+
+rmdir inventario-vehiculos
+
+
+
+
+
+para no hacer cd y estar mas comodo, ya configuré mis variables de entorno y todo.
