@@ -87,7 +87,7 @@ export default function ResetPasswordPage() {
               <Input
                 id="email"
                 type="email"
-                placeholder="tu@empresa.com"
+                placeholder="example@empresa.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="pl-10 h-12"

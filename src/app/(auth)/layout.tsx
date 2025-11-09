@@ -80,10 +80,10 @@ export default function AuthLayout({
 
             <div className="mt-12 p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
               <p className="text-sm text-primary-light/90 italic">
-                "Desde que implementamos InventoryPro, redujimos errores de inventario en un 85% y optimizamos nuestros tiempos de registro."
+                "Con la implementación InventoryPro, buscamos reducir errores de inventario en un 85% y optimizar los tiempos de registro."
               </p>
               <p className="text-sm font-semibold mt-3">
-                — Director de Operaciones, AutoPartes MX
+                — Lider del Proyecto
               </p>
             </div>
           </div>
